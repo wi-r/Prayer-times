@@ -638,6 +638,9 @@ if(navigator.geolocation){
   document.getElementById('loc-name').textContent = 'Auckland, NZ (default)';
   init(-36.8509, 174.7645);
 }
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/Prayer-times/sw.js');
+}
 </script>
 </body>
 </html>
