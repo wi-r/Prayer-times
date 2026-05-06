@@ -6,6 +6,6 @@
   "background_color": "#111210",
   "theme_color": "#2d6a4f",
   "icons": [
-    { "src": "icon.png", "sizes": "180x180", "type": "image/png" }
+    { "src": "/Prayer-times/icon.png", "sizes": "180x180", "type": "image/png" }
   ]
 }
