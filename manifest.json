@@ -1,0 +1,11 @@
+{
+  "name": "Prayer Times",
+  "short_name": "Prayer Times",
+  "start_url": "/Prayer-times/",
+  "display": "standalone",
+  "background_color": "#111210",
+  "theme_color": "#2d6a4f",
+  "icons": [
+    { "src": "icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
