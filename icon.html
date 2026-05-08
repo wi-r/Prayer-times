@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 20px;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  .icon {
+    width: 512px;
+    height: 512px;
+    border-radius: 114px;
+    overflow: hidden;
+    background: #111210;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  p { font-size: 14px; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div class="icon">
+    <svg width="512" height="512" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="680" height="680" fill="#111210"/>
+      <defs>
+        <mask id="icon-crescent-mask">
+          <circle cx="310" cy="340" r="196" fill="white"/>
+          <circle cx="396" cy="284" r="154" fill="black"/>
+        </mask>
+      </defs>
+      <circle cx="310" cy="340" r="196" fill="#e8e8e0" mask="url(#icon-crescent-mask)"/>
+      <polygon
+        points="406,193 423,244 477,244 433,274 450,325 406,295 362,325 379,274 335,244 389,244"
+        fill="#2d6a4f"
+      />
+    </svg>
+  </div>
+  <p>Right-click the icon → Save image as... (or screenshot and crop)</p>
+</body>
+</html>
